@@ -1,0 +1,7 @@
+.input {
+    @apply px-4 h-[46px] w-full shadow-lg ring-1 text-base font-bold text-primary ring-primary-stroke outline-none font-primaryRegular tracking-[.03em] rounded-full;
+}
+
+.input::-webkit-input-placeholder {
+    @apply text-base font-normal tracking-[.03em] text-primary-placeholder;
+}

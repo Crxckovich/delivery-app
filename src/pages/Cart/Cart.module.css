@@ -1,0 +1,23 @@
+.checkout {
+    @apply bg-primary-cards justify-between shadow-lg h-[350px] rounded-[40px] flex flex-col p-10 gap-5 xl:col-start-3 xl:row-start-1 row-end-auto;
+}
+
+.head {
+    @apply mx-auto flex flex-row container py-10 justify-center;
+}
+
+.cards {
+    @apply mx-auto grid xl:grid-cols-3 grid-cols-1 container xl:gap-10 gap-y-10;
+}
+
+.result {
+    @apply font-primaryRegular text-primary font-bold lg:text-4xl text-3xl;
+}
+
+.price {
+    @apply font-primaryRegular text-accent font-bold lg:text-4xl text-3xl;
+}
+
+.cart {
+    @apply flex justify-between font-primaryRegular text-primary lg:text-2xl text-xl font-bold;
+}

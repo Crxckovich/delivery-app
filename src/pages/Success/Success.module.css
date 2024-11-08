@@ -1,0 +1,7 @@
+.text {
+    @apply font-primaryRegular font-bold text-accent lg:text-4xl text-2xl;
+}
+
+.success {
+    @apply mx-auto container flex items-center justify-center flex-col max-w-[570px] gap-10 py-20;
+}

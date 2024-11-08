@@ -1,0 +1,19 @@
+.login {
+    @apply flex flex-col gap-8 items-center ;
+}
+
+.form {
+    @apply flex flex-col gap-8 md:w-[350px] w-[300px];
+}
+
+.field {
+    @apply flex flex-col gap-2;
+}
+
+.link {
+    @apply text-accent font-primaryRegular flex justify-center;
+}
+
+.error {
+    @apply bg-yellow-400 text-yellow-800 w-full rounded-full p-2 text-center font-primaryRegular font-bold;
+}

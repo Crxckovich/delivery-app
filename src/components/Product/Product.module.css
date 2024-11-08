@@ -1,0 +1,3 @@
+.product {
+    @apply mx-auto grid grid-cols-3 w-[1520px] gap-6;
+}

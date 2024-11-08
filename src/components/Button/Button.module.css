@@ -1,0 +1,11 @@
+.button {
+    @apply flex items-end gap-1 justify-center uppercase rounded-full transition-all duration-200 ease-in-out tracking-[.05em] shadow-lg shadow-orange-100; /* Основные стили */
+}
+
+.accent {
+    @apply font-primaryRegular p-4 w-full bg-accent text-white hover:bg-accent-hover font-bold text-xl; /* Опциональные стили */
+}
+
+.small {
+    @apply font-primaryRegular py-2 px-8 bg-secondary font-bold text-accent hover:bg-accent hover:text-white text-base; /* Опциональные стили */
+}

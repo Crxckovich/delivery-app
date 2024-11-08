@@ -1,0 +1,19 @@
+.head {
+    @apply mx-auto flex flex-row container py-10 justify-center;
+}
+
+.cards {
+    @apply mx-auto grid xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 container gap-10 mb-12;
+}
+
+.title {
+    @apply text-3xl text-primary font-primaryRegular font-bold;
+}
+
+.description {
+    @apply flex-col flex gap-y-1 text-xl text-primary-body font-primaryRegular;
+}
+
+.card-item__info {
+    @apply flex flex-col gap-y-5;
+}

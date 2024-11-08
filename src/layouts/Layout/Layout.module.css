@@ -1,0 +1,39 @@
+.layout {
+    @apply backdrop-blur-2xl bg-white/70 border-b border-primary-stroke;
+}
+
+.buttons-group {
+    @apply lg:flex-row flex-col lg:gap-12 gap-y-10 lg:hidden flex relative;
+}
+
+.buttons-group-2 {
+    @apply flex-row gap-12 hidden lg:flex relative;
+}
+
+.header {
+    @apply mx-auto flex flex-row justify-between container py-2;
+}
+
+.link {
+    @apply flex lg:flex-col flex-row items-center lg:justify-center text-sm text-primary font-primaryRegular font-bold tracking-[.03em] transition duration-200 hover:text-accent lg:gap-1 gap-2;
+}
+
+.active {
+    @apply text-accent;
+}
+
+.icon {
+    @apply h-[25px];
+}
+
+.avatar {
+    @apply w-[60px] shadow-md rounded-full;
+}
+
+.menu {
+    @apply flex flex-row gap-12 items-center max-w-[665px];
+}
+
+.logo {
+    @apply lg:w-[90px] w-[70px] hidden md:flex;
+}
